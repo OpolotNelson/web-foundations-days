@@ -1,0 +1,7 @@
+# Day 8 Reflection
+
+The most difficult concept in this course was understanding how to design a system that can handle many users without becoming slow or unreliable. At first, it was easy to think only about the features a website needs. However, system design requires considering what happens when many people use those features at the same time. I overcame this by learning to break a problem into requirements, capacity estimates, API endpoints, data models, architecture, and trade-offs. The TicketHub example helped me understand why database transactions and constraints are important when several customers try to purchase the same seat.
+
+One part of my QuickNotes capstone that I would improve is the demonstration and explanation of how the application works. I would make the handling of errors and empty states clearer and demonstrate the relevant requests in the browser's Network tab. I would also continue improving the application's persistence and testing so that users can trust that their notes behave correctly after refreshing the page. This would make the project easier to evaluate and more reliable for users.
+
+Next, I want to learn how to build a real backend using Node.js and Express and connect it to a PostgreSQL database. This would help me move beyond designing APIs and practising with a demonstration service to building an application with persistent data, authentication, and proper server-side validation. I also want to practise load testing so that I can measure performance and identify bottlenecks instead of relying only on estimates.
